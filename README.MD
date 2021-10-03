@@ -1,4 +1,0 @@
-clone 
-repo 
-push 
-pull
