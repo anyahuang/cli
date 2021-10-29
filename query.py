@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-from data import warehouse1,warehouse2
+from data import stock
+
 user_name = input("Enter you name: ",)
 print("Good morning",user_name)
-menu = warehouse1,warehouse2
+
 num = input("Please select : \n1. List items by warehouse, \n2. Search an item and place an order\n3. Quit.\n ")
 
 if num == "1" :
@@ -48,5 +49,6 @@ else:
 print("Thank you ",user_name,"for your visit!")    
 
 
-
-
+# warehouse integer: The warehouse number where this item is located.
+# date_of_stock date: The date and time the item was stocked.
+print(x)
